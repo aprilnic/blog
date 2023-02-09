@@ -14,5 +14,7 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [preact(), react(), tailwind(), mdx()]
+  integrations: [preact(), react(), tailwind(), mdx()],
+  site: 'https://aprilnic.github.io',
+  base: '/blog',
 });
